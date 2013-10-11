@@ -10,6 +10,7 @@
   "dependencies": {
     "code42day/load": "1.0.0"
   },
+  "demo": "http://scenicbyways.info/search.html?q=ground",
   "license": "MIT",
   "main": "index.js",
   "scripts": [
