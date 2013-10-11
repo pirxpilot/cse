@@ -2,7 +2,7 @@
   "name": "cse",
   "repo": "code42day/cse",
   "description": "Google custom search engine snippet",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "keywords": [
     "google",
     "search"
