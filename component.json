@@ -1,0 +1,14 @@
+{
+  "name": "cse",
+  "repo": "code42day/cse",
+  "description": "Google custom search engine snippet",
+  "version": "0.0.1",
+  "keywords": [],
+  "dependencies": {},
+  "development": {},
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": [
+    "index.js"
+  ]
+}
