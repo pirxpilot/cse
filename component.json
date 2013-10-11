@@ -3,9 +3,13 @@
   "repo": "code42day/cse",
   "description": "Google custom search engine snippet",
   "version": "0.0.1",
-  "keywords": [],
-  "dependencies": {},
-  "development": {},
+  "keywords": [
+    "google",
+    "search"
+  ],
+  "dependencies": {
+    "code42day/load": "1.0.0"
+  },
   "license": "MIT",
   "main": "index.js",
   "scripts": [
