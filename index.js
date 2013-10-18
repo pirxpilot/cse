@@ -3,11 +3,12 @@ var load = require('load');
 /*global google */
 
 function search(cx) {
+  var searchBox = document.getElementById('cseSearchBox'),
+    searchResults = document.getElementById('cseSearchResults');
+
 
   function render() {
-    var cse = google.search.cse,
-      searchBox = document.getElementById('cseSearchBox'),
-      searchResults = document.getElementById('cseSearchResults');
+    var cse = google.search.cse;
 
     if (searchBox) {
       cse.element.render({
@@ -27,6 +28,10 @@ function search(cx) {
         }
       });
     }
+  }
+
+  if (!searchBox && !searchResults) {
+    return;
   }
 
   window.__gcse = {
