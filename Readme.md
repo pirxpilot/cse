@@ -22,7 +22,7 @@ google's magic.
 
 ````javascript
 var cseID = "012345678901234567890:abcdefghijk";
-require(`cse`)(cseID);
+require('cse')(cseID);
 ````
 
 If neither `#cseSearchBox` nor `#cseSearchResults` are found we die silently without trying to load
