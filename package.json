@@ -1,6 +1,6 @@
 {
   "name": "cse",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Google custom search engine snippet",
   "scripts": {
     "test": "make check"
