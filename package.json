@@ -1,0 +1,31 @@
+{
+  "name": "cse",
+  "version": "1.0.1",
+  "description": "Google custom search engine snippet",
+  "scripts": {
+    "test": "make check"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/code42day/cse.git"
+  },
+  "keywords": [
+    "browser",
+    "google",
+    "search"
+  ],
+  "dependencies": {
+    "code42day-load": "^1.0.0"
+  },
+  "browser": {
+    "load": "code42day-load"
+  },
+  "files": [
+    "index.js"
+  ],
+  "author": "Damian Krzeminski <pirxpilot@code42day.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/code42day/cse/issues"
+  }
+}
