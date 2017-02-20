@@ -7,9 +7,9 @@ See in the wild on the [American Scenic Byways][byways.site] website - _[source]
 
 ## Installation
 
-Install with [component(1)](http://component.io):
+Install with [npm](http://npmjs.org):
 
-    $ component install code42day/cse
+    $ npm install cse
 
 ## API
 
@@ -35,4 +35,4 @@ any scripts from google.
 
 [cse]: http://google.com/cse
 [byways.site]: http://scenicbyways.info/search.html?q=ground
-[byways.src]: https://github.com/code42day/byways
+[byways.src]: https://github.com/melitele/byways
