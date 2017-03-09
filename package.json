@@ -15,10 +15,10 @@
     "search"
   ],
   "dependencies": {
-    "code42day-load": "^1.0.0"
+    "dynload": "^1.0.2"
   },
   "browser": {
-    "load": "code42day-load"
+    "load": "dynload"
   },
   "files": [
     "index.js"
